@@ -65,8 +65,8 @@ const Analysis = () => {
                 className="tree-image"
                 width={500}
               />
-              <h3>{tree.name}</h3>
-              <p>{tree.description}</p>
+              <h4 className="text-medium">{tree.name}</h4>
+              <p className="text-med">{tree.description}</p>
             </div>
           ))}
         </div>
