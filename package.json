@@ -52,5 +52,10 @@
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.21.11",
     "canopyapp": "github:shield0225/CanopyPrototype"
-  }
+  },
+  "overrides": {
+  "nth-check": "^2.0.1",
+  "postcss": "^8.4.31"
+}
+
 }
