@@ -1,7 +1,6 @@
 {
   "name": "canopyapp",
   "version": "0.1.0",
-  "homepage": "https://master.dm8tz5dbw2np.amplifyapp.com/",
   "private": true,
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.523.0",
@@ -26,8 +25,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "CanopyPrototype -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
