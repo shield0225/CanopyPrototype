@@ -119,19 +119,16 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-draw/dist/leaflet.draw.css"; // Import leaflet-draw styles
 import DrawControl from "./DrawControl"; // Ensure this is correctly implemented
-import { Button, Form, Container } from "react-bootstrap";
-import ImageModal from "./ImageModal";
-import SimpleModal from "./SimpleModal";
-import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const MAPBOX_ACCESS_TOKEN =
   "pk.eyJ1Ijoic2hpZWxkc2FsY2VkbyIsImEiOiJjbHNreTFkM2EwNGxpMmtsZnB1MnlrY2c0In0.b46cu_HaaEFY8HiXdO1v4g";
 const customMapboxStyleUrl = `https://api.mapbox.com/styles/v1/shieldsalcedo/clsl0rd7603um01qqa5a8g556/tiles/256/{z}/{x}/{y}?access_token=${MAPBOX_ACCESS_TOKEN}`;
 
 function SatWithDraw() {
-  const location = useLocation();
+  // const location = useLocation();
   const navigate = useNavigate();
   // Your state definitions
 
@@ -173,11 +170,6 @@ function SatWithDraw() {
   const handleSoilChange = (e) => {
     setSoilType(e.target.value);
   };
-
-  const [modalOpen, setModalOpen] = useState(false);
-
-  const handleOpenModal = () => setModalOpen(true);
-  const handleCloseModal = () => setModalOpen(false);
 
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
