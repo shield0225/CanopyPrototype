@@ -12,8 +12,8 @@ function SearchBar() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submit action
-    console.log(searchQuery); // Here you can replace this with a function to handle the search
+    e.preventDefault();
+    console.log(searchQuery);
   };
 
   return (
