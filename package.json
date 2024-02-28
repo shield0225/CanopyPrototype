@@ -1,9 +1,11 @@
 {
   "name": "canopyapp",
   "version": "0.1.0",
-  "homepage": "https://shield0225.github.io/CanopyPrototype/",
+  "homepage": "https://master.dm8tz5dbw2np.amplifyapp.com/",
   "private": true,
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.523.0",
+    "@aws-sdk/client-s3": "^3.523.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
@@ -50,7 +52,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11",
     "canopyapp": "github:shield0225/CanopyPrototype"
   }
 }

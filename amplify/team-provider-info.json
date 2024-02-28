@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "canopyapp-20240228111840-authRole",
+            "UnauthRoleArn": "arn:aws:iam::992382804646:role/canopyapp-20240228111840-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::992382804646:role/canopyapp-20240228111840-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "canopyapp-20240228111840-deployment",
+            "UnauthRoleName": "canopyapp-20240228111840-unauthRole",
+            "StackName": "canopyapp-20240228111840",
+            "StackId": "arn:aws:cloudformation:us-east-1:992382804646:stack/canopyapp-20240228111840/09b7f8c0-d655-11ee-8642-0af71ce4c4b5"
+        }
+    }
+}
