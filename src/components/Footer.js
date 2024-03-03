@@ -64,7 +64,7 @@ function Footer() {
         <footer className="footer">
           <div className="container">
             <span className="text-muted">
-              Copyright &copy; APCI - Hackaton Group1 2024
+              Copyright &copy; Aileen Salcedo 2024
             </span>
           </div>
         </footer>
