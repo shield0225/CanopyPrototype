@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "leaflet-draw/dist/leaflet.draw.css"; // Import leaflet-draw styles
-import DrawControl from "./DrawControl"; // Ensure this is correctly implemented
+import "leaflet-draw/dist/leaflet.draw.css"; 
+import DrawControl from "./DrawControl"; 
 import { Button, Form, Container } from "react-bootstrap";
 import ImageModal from "./ImageModal";
 import SimpleModal from "./SimpleModal";
@@ -28,11 +28,9 @@ function SatWithDraw() {
   const [drawnCoords, setDrawnCoords] = useState([]);
 
   const handleDrawn = (coords) => {
-    // Assuming coords is an object { lat, lng } or an array of such objects for complex shapes
     setDrawnCoords((currentCoords) => [...currentCoords, coords]);
   };
 
-  // Function to clear the coordinates list
   const clearCoordinates = () => {
     setDrawnCoords([]);
   };
@@ -171,15 +169,6 @@ function SatWithDraw() {
             >
               Analyze
             </Button>
-            {/*<ImageModal isOpen={isModalOpen} closeModal={closeModal} /> */}
-            {/* <button onClick={handleOpenModal}>Show Modal</button>
-            <SimpleModal
-              isOpen={modalOpen}
-              closeModal={handleCloseModal}
-              imgSrc="path/to/your/image.jpg"
-              altText="Descriptive Alt Text"
-              description="This is a simple modal showing an image, some text, and a close button."
-            /> */}
           </div>
         </div>
       )}
