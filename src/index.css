@@ -84,12 +84,10 @@ input:checked+.slider:before {
 
 .text-medium {
   font-size: 16px;
-  /* Typically the browser default */
 }
 
 .text-med {
   font-size: 14px;
-  /* Typically the browser default */
 }
 
 .text-large {
@@ -98,7 +96,6 @@ input:checked+.slider:before {
 
 .icon-spacing {
   margin-right: 15px;
-  /* Adjust the spacing as needed */
 }
 
 img.hover-opacity:hover {
