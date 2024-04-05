@@ -21,7 +21,7 @@ function LeafletDraw() {
     map.on(L.Draw.Event.CREATED, (event) => {
       const layer = event.layer;
       drawnItems.addLayer(layer);
-      console.log(layer.toGeoJSON()); // Log GeoJSON to console
+      console.log(layer.toGeoJSON()); /
     });
 
     return () => {
