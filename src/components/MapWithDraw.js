@@ -27,11 +27,10 @@ function MapWithDraw() {
       map.on(L.Draw.Event.CREATED, (event) => {
         const layer = event.layer;
         drawnItems.addLayer(layer);
-        // Here you can handle the created shape as needed
-        console.log(layer.toGeoJSON()); // Example: log GeoJSON to console
+        
+        console.log(layer.toGeoJSON()); 
       });
 
-      // Cleanup on unmount
       return () => {
         map.removeControl(drawControl);
         map.removeLayer(drawnItems);
