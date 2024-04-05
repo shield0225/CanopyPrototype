@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import canopyImage from "../assets/canopy-img2.jpg"; // Adjust the path as necessary
+import canopyImage from "../assets/canopy-img2.jpg"; 
 import SearchBar from "./SearchBar";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -23,11 +23,11 @@ function ImageWithText() {
         className="text-over-image fluid-container text-center"
         style={{
           position: "absolute",
-          top: "50%", // Center vertically
-          left: "50%", // Center horizontally
-          transform: "translate(-50%, -50%)", // Adjust positioning
-          color: "black", // Text color
-          fontSize: "30px", // Text size
+          top: "50%", 
+          left: "50%", 
+          transform: "translate(-50%, -50%)",
+          color: "black", 
+          fontSize: "30px", 
         }}
       >
         <b>Create maximum canopy coverage</b>
