@@ -6,7 +6,6 @@ import L from "leaflet";
 const SatComponent = () => {
   const [selectedArea, setSelectedArea] = useState(null);
 
-  // Replace 'your_mapbox_access_token' with your actual Mapbox access token
   const mapboxAccessToken =
     "pk.eyJ1Ijoic2hpZWxkc2FsY2VkbyIsImEiOiJjbHNreTFkM2EwNGxpMmtsZnB1MnlrY2c0In0.b46cu_HaaEFY8HiXdO1v4g";
   const mapboxSatelliteUrl = `https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxAccessToken}`;
@@ -15,11 +14,11 @@ const SatComponent = () => {
     const map = useMapEvents({
       click(e) {
         const { lat, lng } = e.latlng;
-        setSelectedArea({ lat, lng }); // Update state with selected area coordinates
-        L.marker([lat, lng]).addTo(map); // Correctly add marker to the map
+        setSelectedArea({ lat, lng }); 
+        L.marker([lat, lng]).addTo(map); 
       },
     });
-    return null; // No visual component is returned from MapEvents
+    return null; 
   };
 
   return (
