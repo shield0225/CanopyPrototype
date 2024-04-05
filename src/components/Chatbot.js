@@ -4,7 +4,7 @@ function Chatbot() {
   useEffect(() => {
     const script = document.createElement("script");
 
-    script.src = "URL_TO_CHATBOT_SERVICE_WIDGET";
+    script.src = "https://www.google.com"; // to be worked on
     script.async = true;
 
     document.body.appendChild(script);
@@ -15,7 +15,7 @@ function Chatbot() {
   }, []);
 
   return (
-    <div id="chatbot"> {/* The chatbot widget will be loaded here */} </div>
+    <div id="chatbot"> {} </div>
   );
 }
 
