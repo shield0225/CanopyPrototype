@@ -10,11 +10,11 @@ const MapComponent = () => {
     const map = useMapEvents({
       click(e) {
         const { lat, lng } = e.latlng;
-        setSelectedArea({ lat, lng }); // Update state with selected area coordinates
-        L.marker([lat, lng]).addTo(map); // Correctly add marker to the map
+        setSelectedArea({ lat, lng }); 
+        L.marker([lat, lng]).addTo(map); 
       },
     });
-    return null; // No visual component is returned from MapEvents
+    return null; 
   };
 
   return (
