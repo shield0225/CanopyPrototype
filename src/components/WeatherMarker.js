@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Marker, Popup, useMapEvents } from "react-leaflet";
 
-const OPENWEATHERMAP_API_KEY = "e4207a42aeba2cbfa50e55fb467fec57"; // Replace with your actual API key
+const OPENWEATHERMAP_API_KEY = "e4207a42aeba2cbfa50e55fb467fec57"; 
 
 function WeatherMarker() {
   const [weather, setWeather] = useState(null);
