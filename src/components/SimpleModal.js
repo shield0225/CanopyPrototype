@@ -1,6 +1,5 @@
-// SimpleModal.js
 import React from "react";
-import "./Modal.css"; // Ensure your CSS file has appropriate styles
+import "./Modal.css"; 
 
 const SimpleModal = ({ isOpen, closeModal, imgSrc, altText, description }) => {
   if (!isOpen) return null;
