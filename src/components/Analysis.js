@@ -1,5 +1,4 @@
 import React from "react";
-//import "./RecommendationsPage.css"; // Ensure you have the CSS file for styling
 import { useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import analysis from "../assets/analysis.jpg";
@@ -11,7 +10,6 @@ const Analysis = () => {
   const { drawnCoords, soilType, species, shade, orientation } =
     location.state || {};
 
-  // Sample tree data for urban planting recommendations
   const treeData = [
     {
       name: "Oak (Quercus)",
@@ -34,7 +32,6 @@ const Analysis = () => {
       imageUrl:
         "https://cdn.eathappyproject.com/wp-content/uploads/2021/10/Honey-Locust-Trees-Glenditsia-triacanthos.jpg", // Replace with your actual image URL
     },
-    // Add more trees as desired
   ];
 
   return (
