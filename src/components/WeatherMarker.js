@@ -31,7 +31,6 @@ function WeatherMarker() {
   };
 
   useEffect(() => {
-    // Initial weather fetch for the map's starting center
     const center = map.getCenter();
     fetchWeather(center.lat, center.lng);
   }, [map]);
