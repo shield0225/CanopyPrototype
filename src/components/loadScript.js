@@ -1,7 +1,5 @@
-// utils/loadScript.js
 function loadScript(src, id) {
   return new Promise((resolve, reject) => {
-    // Check if the script is already loaded
     if (document.getElementById(id)) {
       resolve();
       return;
