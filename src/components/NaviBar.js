@@ -61,18 +61,6 @@ function NaviBar() {
           >
             Log In
           </Button>
-          {/* <Nav.Link as={Link} to="/login">
-                Login
-              </Nav.Link>
-              <Nav.Link as={Link} to="/list">
-                List of Users
-              </Nav.Link>
-              <Nav.Link as={Link} to="/listarticles">
-                List of Articles
-              </Nav.Link>
-              <Nav.Link as={Link} to="/create">
-                Sign Up
-              </Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
