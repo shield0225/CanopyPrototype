@@ -29,20 +29,8 @@ function App() {
           <Route path="contactus" element={<ContactUs />} />
           <Route path="planning" element={<Planning />} />
           <Route path="analysis" element={<Analysis />} />
-          {/* <Route path="create" element={<CreateUser />} />
-        <Route path="login" element={<Login />} />
-        <Route path="list" element={<List />} />
-        <Route path="listarticles" element={<ListArticles />} />
-        <Route path="edit/:id" element={<EditUser />} />
-        <Route path="show/:id" element={<ShowUser />} />
-        <Route path="showarticle/:id" element={<ShowArticle />} />
-        <Route path="editarticle/:id" element={<EditArticle />} /> */}{" "}
         </Routes>
         <div className="container">
-          {/* <h1>Canopy Tree Coverage Analysis</h1>
-      <MapComponent />
-      <h2>Satellite View</h2>
-      <SatComponent /> */}
         </div>
       </Router>
     </Container>
